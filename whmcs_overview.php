@@ -95,7 +95,7 @@ if (count($incomestats)) {
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-sm-6 col-xs-6 col-xxs-12">
+				<div class="col-lg-3 col-sm-6 col-xs-6 col-xxs-12">.formatCurrency
 					<div class="smallstat">
 						<span class="title">Active Services</span>
 						<span class="value"><span class="stat1">'.$activeservices.'</span> / <span class="stat1">'.$totalservices.'</span></span>							
@@ -112,7 +112,7 @@ if (count($incomestats)) {
 				<div class="col-lg-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="smallstat">
 						<span class="title">Due Invoices</span>							
-						<span class="value"><span class="stat1">'.$dueinvoices.'</span><span class="label">$'.$overdueinvoicesbal.'</span></span>	
+						<span class="value"><span class="stat1">'.$dueinvoices.'</span><span class="label">'.formatCurrency($overdueinvoicesbal).'</span></span>  	
 					</div>
 				</div>
 			</div>';
